@@ -1,0 +1,2161 @@
+[
+	// capital uniques
+	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"food": 2,
+		"production": 3,
+		"cityHealth": 50,
+		"science": 3,
+		"gold": 1,
+		"culture": 1,
+		"cost": 1,
+		"uniques": ["Indicates the capital city",]
+	},		
+	{
+		"name": "Stockpile",
+		"isNationalWonder": true,
+		"uniqueTo": "Enclavers",
+		"food": 1,
+		"cost": 1,
+		"uniques": [
+			"[10]% Food is carried over after population increases [in this city]",
+			"Provides [2] [Weapons]",
+			"Can only be built [in capital]",
+			"Gain a free [Deep Larder] [in this city]"
+		]
+	},
+	{
+		"name": "Ark One",
+		"isWonder": true,
+		"uniqueTo": "Blackwarden",
+		"culture": 1,
+		"happiness": 1,
+		"gold": 1,
+		"cityStrength": 10,
+		"cityHealth": 60,
+		"cost": 1,
+		"uniques": [
+			"Provides [1] [Power]",
+			"Provides [1] [Weapons]",
+			"Free [Security] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Food Store] [in this city]"
+		],
+		"quote": "While your deposit clears, you may want to read through this guide for potential residents. The Ark One shelter comprises a unique set of secure luxury accomodation based within a former military facility. In addition to their private living space, residents will have access to a complete set of facilities including two restaurants, a cinema, a bowling alley, and a fitness area with gym, spa, sauna and pool. The Ark One shelter is protected by a world-class professional security company, and is hardened to resist a nuclear strike and any armed attack."
+	},
+	{
+		"name": "Atlas Refuge",
+		"isWonder": true,
+		"uniqueTo": "Atlas",
+		"gold": 1,
+		"cityHealth": 40,
+		"cost": 1,
+		"uniques": [
+			"Provides [1] [Power]",
+			"Free [Surveyor] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Food Store] [in this city]"
+		],
+		"quote": "At the Refuge, I am creating more than a town, more even than a polity; it is a new world, where individuals will be free to act without the burden of taxation or the specter of injustice. Here, I have created a truly voluntary society, where the citizens associate in rational self interest; from love, not from fear of punishment. I have sent you this invitation because you have greatness within you; think of all you have achieved in your life, and how much more you could do, if you were not held back. Choose something different. Choose Atlas."
+	},
+	{
+		"name": "Eagle Rock Complex",
+		"isWonder": true,
+		"uniqueTo": "The Patriots",
+		"specialistSlots": { "Engineer": 1 },
+		"gold": 1,
+		"cityStrength": 20,
+		"cityHealth": 80,
+		"cost": 1,
+		"uniques": [
+			"[10]% Food is carried over after population increases [in this city]",
+			"Provides [1] [Power]",
+			"Provides [2] [Weapons]",
+			"Free [Spec Ops] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Food Store] [in this city]"
+		]
+	},
+	{
+		"name": "Forum",
+		"isNationalWonder": true,
+		"uniqueTo": "Crimson Legion",
+		"cityHealth": 20,
+		"cost": 1,
+		"uniques": [
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Free [Swordsman] appears",
+			"Can only be built [in capital]"
+		]
+	},
+	{
+		"name": "Temple",
+		"isWonder": true,
+		"uniqueTo": "Cult of Ignis",
+		"specialistSlots": { "Administrator": 1 },
+		"happiness": 1,
+		"cost": 1,
+		"uniques": [
+			"[+2 Culture] [in this city] <after discovering [Iron Working]>",
+			"Provides [2] [Oil]",
+			"Free [War Buggy] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Fuel Depot] [in this city]"
+		],
+		"quote": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed."
+	},
+
+	
+	//gov buildings
+	{
+		"name": "Congress",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Council]>"
+		]
+	},
+	{
+		"name": "Council",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Congress]>"
+		]
+	},
+	{
+		"name": "Citizens' Assembly",
+		"replaces": "Congress",
+		"uniqueTo": "Children of Rust",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Science, +1 Culture] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Defense Committee]>"
+		]
+	},
+	{
+		"name": "Defense Committee",
+		"replaces": "Council",
+		"uniqueTo": "Children of Rust",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"[+20]% Production when constructing [Military] units [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Citizens' Assembly]>"
+		]
+	},
+	{
+		"name": "Shareholders' Fund",
+		"replaces": "Congress",
+		"uniqueTo": "Blackwarden",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Gold] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Board of Directors]>"
+		]
+	},
+	{
+		"name": "Board of Directors",
+		"replaces": "Council",
+		"uniqueTo": "Blackwarden",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Gold] from every [Town Hall]",
+			"[Gold] cost of purchasing items in cities [-20]%",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Shareholders' Fund]>"
+		]
+	},
+	{
+		"name": "Freedom Foundation",
+		"replaces": "Congress",
+		"uniqueTo": "Atlas",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Science, +1 Gold] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Think Tank]>"
+		]
+	},
+	{
+		"name": "Think Tank",
+		"replaces": "Council",
+		"uniqueTo": "Atlas",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Production to [Science] conversion in cities changed by [33]%",
+			"[+10]% Production when constructing [Science] buildings [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Freedom Foundation]>"
+		]
+	},
+	{
+		"name": "Smugglers' Guild",
+		"replaces": "Congress",
+		"uniqueTo": "Deadrock Clan",
+		"cost": 100,
+		"requiredTech": "Currency",
+		"uniques": [
+			"Provides a sum of gold each time you spend a Great Person",
+			"[Great Merchant] is earned [25]% faster",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Grand Clan Manor]>"
+		]
+	},
+	{
+		"name": "Grand Clan Manor",
+		"replaces": "Council",
+		"uniqueTo": "Deadrock Clan",
+		"cost": 200,
+		"requiredTech": "Currency",
+		"uniques": [
+			"[Great General] is earned [50]% faster",
+			"New [Clansman] units start with [30] Experience [in all cities]",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Smugglers' Guild]>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Enables the construction of Black Hand units.","link":"Unit/Black Hand"
+			}
+		]
+	},
+	{
+		"name": "Senate",
+		"replaces": "Congress",
+		"uniqueTo": "Crimson Legion",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Gold] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Consulate]>"
+		]
+	},
+	{
+		"name": "Consulate",
+		"replaces": "Council",
+		"uniqueTo": "Crimson Legion",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Great General provides double combat bonus",
+			"[+20]% Production when constructing [Military] units [in all cities]",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Senate]>"
+		]
+	},
+	{
+		"name": "War Council",
+		"replaces": "Congress",
+		"uniqueTo": "Cult of Ignis",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Production] per [4] population [in all cities]",
+			"[+20]% Production when constructing [Military] units [in all cities]",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Seer Council]>"
+		]
+	},
+	{
+		"name": "Seer Council",
+		"replaces": "Council",
+		"uniqueTo": "Cult of Ignis",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+25]% [Science] from every [College of Mystics]",
+			"[+20]% Production when constructing [Science] buildings [in all cities]",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [War Council]>"
+		]
+	},
+	
+	//END capital uniques
+	
+	{
+		"name": "Apollo Program",
+		"cost": 1500,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <in cities with a [Aerospace Facility]>",
+			"Hidden when [Scientific] Victory is disabled",
+			"Comment [Enables the construction of Terraformer Parts]"
+		],
+		"requiredTech": "Rocketry"
+	},
+	{
+		"name": "Manhattan Project",
+		"isNationalWonder": true,
+		"uniques": ["Enables nuclear weapon"],
+		"requiredTech": "Nuclear Fission"
+	},
+		
+	// projects
+	
+	{
+		"name": "Search for Survivors",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+1] population [in all cities]"
+		]
+	},	
+	{
+		"name": "Shake Down Survivors",
+        "cost": 5,
+		"isNationalWonder": true,
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Deadrock Clan",
+		"uniques": ["[2] free [Clansman] units appear","[Scout] units gain the [Clansman] promotion"]
+	},		
+	{
+		"name": "Slaver Guild",
+		"cost": 40,
+		"isNationalWonder": true,
+		"percentStatBonus": { "production": 10 },
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Crimson Legion",
+		"uniques": [
+			"[+1 Happiness] [in all cities connected to capital]",
+			"Provides [3] [Slaves]",
+			"[+50]% Production when constructing [Worker] units [in all cities]",
+			"Free [Auxiliary] appears",
+			"Can only be built [in capital]",
+			"Only available <after adopting [Sovereignty]>"
+		]
+	},
+	{
+		"name": "Conscript Survivors",
+		"cost": 25,
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Cult of Ignis",
+		"isNationalWonder": true,
+		"uniques": [
+			"Provides [3] [Slaves]",
+			"Free [Warrior] appears",
+			"Only available <after adopting [Sovereignty]>",
+			"Can only be built [in capital]"
+		]
+	},
+	{
+		"name": "Search Shelters",
+		"cost": 75,
+		"isWonder": true,
+		"requiredTech": "Secrets of the Past",
+		"uniques": [
+			"[+1] population [in all cities]"
+		],
+		"quote": "When you hear the air attack warning, you and your family must take cover..."
+	},
+	{
+		"name": "Heavy Equipment",
+		"isNationalWonder": true,
+		"requiredTech": "Engineering",
+		"requiredNearbyImprovedResources": ["Oil"],
+		"uniques": [
+			"[-25]% construction time for [All] improvements",
+			"Free [Worker] appears"
+		]
+	},
+	{
+		"name": "Public Broadcast",
+		"isWonder": true,
+		"cost": 100,
+		"requiredTech": "Radio",
+		"uniques": [
+			"[+1] population [in all cities]",
+			"Only available <in cities with a [Broadcast Tower]>"
+		],
+		"quote": "When the immediate danger has passed the sirens will sound a steady note. The all clear message will also be given on this wavelength."
+	},
+	
+	//Natural Wonder uniques
+	{
+		"name": "Ally with Isolationists",
+		"cost": 5,
+		"uniques": [
+			"Must have an owned [Isolated Island] within [3] tiles",
+			"[+2 Science, +2 Gold] from [Isolated Island] tiles [in this city]",
+			"Only available <in cities without a [Annex Isolationists]>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Annex Isolationists",
+		"isNationalWonder": true,
+		"requiredTech": "Sailing",
+		"cost": 200,
+		"uniques": [
+			"Must have an owned [Isolated Island] within [3] tiles",
+			"[+2 Food, +5 Gold, -1 Culture] from [Isolated Island] tiles [in all cities]",
+			"Provides [1] [Weapons]",
+			"Provides [1] [Slaves]",
+			"Only available <in cities without a [Ally with Isolationists]>",
+			"Will not be displayed in Civilopedia"
+		],
+		"quote": "Ephialtes the son of Eurydemos, a Malian, came to speech with him, supposing that he would win a very great reward from the king; and this man told him of the path which leads over the mountain to Thermopylae, and brought about the destruction of those Greeks who remained in that place."
+	},
+	{
+		"name": "Faust Project",
+		"isWonder": true,
+		"cost": 125,
+		"uniques": [
+			"Must have an owned [Missile Complex] within [4] tiles",
+			"[+20]% Production when constructing [Manhattan Project] wonders [in all cities]",
+			"[+20]% Production when constructing [Missile] units [in all cities]",
+			"Free [Divine Spear] appears",
+			"Will not be displayed in Civilopedia"
+		],
+		"requiredTech": "Writing",
+		"quote": "Our legends tell of weapons, wielded by kings of old; crafted by evil wizards, unholy to behold..."
+	},
+	{
+		"name": "Nuclear Waste Museum",
+		"requiredTech": "Writing",
+		"uniques": [
+			"Must have an owned [Nuclear Waste Storage] within [3] tiles",
+			"[+1 Culture, +1 Science] from [Nuclear Waste Storage] tiles [in this city]",
+			"Only available <in cities without a [Excavate Nuclear Waste]>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Excavate Nuclear Waste",
+		"isWonder": true,
+		"percentStatBonus": {"food": -20},
+		"requiredTech": "Mining",
+		"uniques": [
+			"Comment [DO NOT DO THIS]",
+			"Must have an owned [Nuclear Waste Storage] within [3] tiles",
+			"[-3 Food, +4 Science] from [Nuclear Waste Storage] tiles [in this city]",
+			"Provides [1] [Uranium]",
+			"Only available <in cities without a [Nuclear Waste Museum]>",
+			"Will not be displayed in Civilopedia"],
+		"quote": "Sending this message was important to us.\nWe considered ourselves to be a powerful culture.\nThis place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.\nWhat is here was dangerous and repulsive to us.\nThis message is a warning about danger.\nThe danger is still present, in your time, as it was in ours."
+	},
+	{
+		"name": "Propagate Seeds",
+		"isWonder": true,
+		"requiredTech": "Ecology",
+		"cost": 50,
+		"uniques": [
+			"[+25]% growth [in all cities]",
+			"Must have an owned [Seed Vault] within [3] tiles",
+			"Will not be displayed in Civilopedia"
+		],
+		"quote": "What about us? What about all the plans that ended in disaster?"
+	},
+	{
+		"name": "Distribute Soft Drinks",
+		"isWonder": true,
+		"cost": 25,
+		"uniques": [
+			"Must have an owned [Soft Drinks Factory] within [3] tiles",
+			"Empire enters golden age",
+			"[-1 Culture, -1 Happiness] from [Soft Drinks Factory] tiles [in all cities]",
+			"Only available <in cities without a [Produce Soft Drinks]>",
+			"Will not be displayed in Civilopedia"
+		],
+		"quote": "E-NERGY ULTRA BRIGHT ZERO EMISSION STEALTH\n(Per 500ml Energy 11kCal(1%**)\nNiacin 43mg(266%**)\nPANTHOTENIC ACID 21mg (350%**)\nCaffeine-B 150mg (600%**)**%RDA)\nZERO SUGAR - JUST AS PUMPED!\nIn collaboration with Gearheads, Musicians, Coders, CEOs, Anarchists, Bikers, Historical Reenactors, Hipsters, and YOU!"
+	},
+	{
+		"name": "Produce Soft Drinks",
+		"isNationalWonder": true,
+		"requiredTech": "Steam Power",
+		"uniques": [
+			"Must have an owned [Soft Drinks Factory] within [3] tiles",
+			"Provides [3] [Soft Drinks]",
+			"Consumes [1] [Power]",
+			"Only available <in cities without a [Distribute Soft Drinks]>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Salvage Army Depot",
+		"requiredTech": "Engineering",
+		"isWonder": true,
+		"cost": 50,
+		"uniques": [
+			"Must have an owned [Army Depot] within [3] tiles",
+			"[+1 Science, +1 Production] from [Army Depot] tiles [in this city]",
+			"Provides [2] [Weapons]",
+			"Free [Tank] appears",
+			"Will not be displayed in Civilopedia"
+		],
+		"quote": "Oh, see the fire is sweepin, our very street today; burns like a red coat carpet, mad bull lost your way... War, children! It's just a shot away!"
+	},
+	{
+		"name": "Salvage Graveyard",
+		"requiredTech": "Sailing",
+		"isWonder": true,
+		"cost": 50,
+		"uniques": [
+			"Must have an owned [Ship Graveyard] within [3] tiles",
+			"[+1 Science, +1 Production] from [Ship Graveyard] tiles [in all cities]",
+			"Free [Patrol Boat] appears",
+			"Will not be displayed in Civilopedia"
+		],
+		"quote": "He who commands the sea has command of everything."
+	},
+	{
+		"name": "Turbine Hall",
+		"isWonder": true,
+		"requiredTech": "Steel",
+		"uniques": [
+			"Must have an owned [Hydroelectric Dam] within [3] tiles",
+			"Provides [8] [Power]",
+			"Will not be displayed in Civilopedia"
+		],
+		"quote": "At full capacity, these turbines were able to provide clean electricity for 31,052 homes, offsetting up to 51,997 tons of CO2 each year."
+	},
+	{
+		"name": "Secret Laboratory",
+		"isNationalWonder": true,
+		"requiredTech": "Laboratory",
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"uniques": [
+			"Must have an owned [Research Facility] within [5] tiles",
+			"All newly-trained [relevant] units [in this city] receive the [March] promotion",
+			"Will not be displayed in Civilopedia"
+		]
+	},	
+	{
+		"name": "Chemical Weapons Laboratory",
+		"isNationalWonder": true,
+		"requiredTech": "Laboratory",
+		"maintenance": 2,
+		"greatPersonPoints": { "Great Scientist": 1 },
+		"uniques": [
+			"Must have an owned [Toxic Waste] within [15] tiles",
+			"Only available <after adopting [Scorched Earth]>",
+			"[Artillery] units gain the [Chemical Weapons] promotion",
+			"[Aircraft] units gain the [Chemical Weapons] promotion",
+			"[Helicopter] units gain the [Chemical Weapons] promotion",
+			"Consumes [1] [Power]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+
+	//	FOOD
+	
+	{
+		"name": "Food Store",
+		"cost": 10,
+		"hurryCostModifier": -25,
+		"uniques": [
+			"[20]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
+			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>"
+		]
+	},
+	{
+		"name": "Deep Larder",
+		"replaces": "Food Store",
+		"uniqueTo": "Enclavers",
+		"cost": 10,
+		"hurryCostModifier": -25,
+		"uniques": [
+			"[30]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
+			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>"
+		]
+	},
+	{
+		"name": "Cold Store",
+		"percentStatBonus": { "food": 10 },
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Food] from [Goats] tiles [in this city]",
+			"[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Algae] tiles [in this city]",
+			"Consumes [1] [Power]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Refrigeration"
+	},
+	{
+		"name": "Ranch",
+		"requiredNearbyImprovedResources": ["Cattle", "Goats", "Furs"],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Food] from [Insects] tiles [in this city]",
+			"[+1 Food] from [Goats] tiles [in this city]",
+			"[+1 Food] from [Furs] tiles [in this city]"
+		],
+		"requiredTech": "Redomestication"
+	},		
+	{
+		"name": "Greenhouse",
+		"food": 2,
+		"specialistSlots": { "Farmer": 1 },
+		"uniques": [
+			"[+1 Food] from [Tubers] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"
+		],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Botany"
+	},
+	{
+		"name": "Hydroponic Farming",
+		"food": 2,
+		"specialistSlots": { "Farmer": 3 },
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Hydroponics"
+	},
+	{
+		"name": "Mycoprotein Vats",
+		"food": 6,
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Genetics"
+	},
+	{
+		"name": "Reclamation Vats",
+		"percentStatBonus": { "food": 25 },
+		"maintenance": 4,
+		"hurryCostModifier": 25,
+		"requiredTech": "Human Genome"
+	},
+	{
+		"name": "Hospital",
+		"science": -1,
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology",
+		"uniques": [
+			"[30]% Food is carried over after population increases [in this city]",
+			"All newly-trained [relevant] units [in this city] receive the [Medic] promotion",
+			"[+1 Food] [in this city] <with [Harvested Organs]>",
+			"Consumes [1] [Power]"
+		]
+	},
+	{
+		"name": "Organ Farm",
+		"replaces": "Hospital",
+		"uniqueTo": "Deadrock Clan",
+		"science": -1,
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology",
+		"uniques": [
+			"[10]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Harvested Organs]>",
+			"Provides [1] [Harvested Organs]",
+			"Consumes [1] [Slaves]"
+		]
+	},
+	{
+		"name": "Blood Bank",
+		"replaces": "Hospital",
+		"uniqueTo": "Cult of Ignis",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology",
+		"uniques": [
+			"[10]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Harvested Organs]>",
+			"[Armor] units gain the [Resupply] promotion",
+			"Consumes [1] [Slaves]"
+		]
+	},
+	{
+		"name": "Medical Lab",
+		"science": -1,
+		"maintenance": 2,
+		"requiredTech": "Pharmaceuticals",
+		"uniques": [
+			"[20]% Food is carried over after population increases [in this city]",
+			"Only available <in cities with a [Hospital]>"
+		]
+	},
+	//organ cloning lab
+	{
+		"name": "Organ Lab",
+		"isNationalWonder": true,
+		"science": -1,
+		"maintenance": 2,
+		"requiredTech": "Human Genome", // cloning?
+		"uniques": [
+			"Provides [1] [Harvested Organs]",
+			"Only available <in cities with a [Medical Lab]>",
+			"Consumes [1] [Power]"
+		]
+	},
+	
+	//	CULTURE, HAPPPINESS
+	
+	{
+		"name": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,		
+	},	
+	{
+		"name": "Domestic Electrification",
+		"isNationalWonder": true,
+		"uniques": [
+			"[+2 Happiness, +2 Culture] [in this city] <with [Power]>",
+			"[+2 Happiness] [in this city] <with [Data]>",
+			"[+2 Happiness] [in this city] <with [Electronics]>",
+			"[+2 Happiness] [in this city] <with [Machinery]>",
+			"Cost increases by [50] per owned city",
+			"Can only be built [in capital]",
+			"Consumes [1] [Power]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Town Hall",
+		"specialistSlots": { "Administrator": 1 },
+		"maintenance": 1,
+		"uniques": [
+			"[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]",
+			"[+1 Happiness, +1 Culture] [in this city] <with [Power]>"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Commune",
+		"replaces": "Town Hall",
+		"uniqueTo": "Children of Rust",
+		"happiness": 1,
+		"culture": 1,
+		"maintenance": 1,
+		"cost": 40,
+		"uniques": [
+			"[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]",
+			"[+1 Happiness, +1 Culture] [in this city] <with [Power]>",
+			"[+1] population [in all cities]"
+		],
+		"hurryCostModifier": 40
+	},
+	{
+		"name": "Personnel Office",
+		"replaces": "Town Hall",
+		"uniqueTo": "Blackwarden",
+		"maintenance": 1,
+		"uniques": [
+			"[+33]% Production when constructing [Worker] units [in this city]",
+			"[+1 Happiness, +1 Culture] [in this city] <with [Power]>",
+			"[+1 Food, +3 Production] [in this city] <with [Slaves]>"
+		],
+		"cost": 40,
+		"hurryCostModifier": -25
+	},
+	{
+		"name": "Casino",
+		"replaces": "Town Hall",
+		"uniqueTo": "Deadrock Clan",
+		"specialistSlots": { "Merchant": 1 },
+		"happiness": 1,
+		"uniques": [
+			"[+1 Gold] per [3] population [in this city]",
+			"[+1 Happiness, +1 Culture, +1 Gold] [in this city] <with [Power]>",
+			"[+1 Gold] [in this city] <with [Slaves]>",
+			"[+1 Gold] [in this city] <with [Alcohol]>",
+			"[+1 Gold] [in this city] <with [Narcotics]>",
+			"[+1 Gold] [in this city] <with [Refined Narcotics]>",
+			"Will not be displayed in Civilopedia"
+		],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Slave Market",
+		"replaces": "Town Hall",
+		"uniqueTo": "Crimson Legion",
+		"percentStatBonus": { "food": 10 },
+		"specialistSlots": { "Merchant": 1 },
+		"culture": 1,
+		"happiness": 1,
+		"uniques": [
+			"[+50]% Production when constructing [Worker] units [in this city]",
+			"[+1 Gold, +1 Production] [in this city] <with [Slaves]>",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]"
+		],
+		"requiredTech": "Trade"
+	},
+	{
+		"name": "Plantation",
+		"replaces": "Town Hall",
+		"uniqueTo": "Cult of Ignis",
+		"percentStatBonus": { "food": 20 },
+		"uniques": [
+			"[+75]% Production when constructing [Worker] units [in this city]",
+			"[+2 Food] [in this city] <with [Slaves]>",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]"
+		],
+		"cost": 40,
+		"hurryCostModifier": 25
+	},
+	{
+		"name": "Museum",
+		"culture": 1,
+		"science": 1,
+		"cost": 40,
+		"requiredNearbyImprovedResources": ["Artifacts", "Marine Artifacts"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Secrets of the Past"
+	},
+	{
+		"name": "Broadcast Tower",
+		"culture": 1,
+		"happiness": 1,
+		"specialistSlots": { "Administrator": 1 },
+		"percentStatBonus": { "culture": 25 },
+		"uniques": ["Consumes [1] [Power]"],
+		"requiredTech": "Radio"
+	},
+	{
+		"name": "Television Studio",
+		"culture": 1,
+		"happiness": 2,
+		"specialistSlots": { "Administrator": 1 },
+		"maintenance": 1,
+		"uniques": [
+			"Only available <in cities with a [Broadcast Tower]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Electronics"
+	},
+	{
+		"name": "Broadcast Network",
+		"happiness": 2,
+		"culture": 2,
+		"uniques": [
+			"[+1 Happiness] per [2] social policies adopted",
+			"Only available <in cities with a [Television Studio]>"
+		],
+		"isNationalWonder": true,
+		"requiredTech": "Social Engineering"
+	},
+	{
+		"name": "Stadium",
+		"happiness": 3,
+		"maintenance": 1,
+		"requiredTech": "Social Engineering"
+	},
+	{
+		"name": "Distillery",
+		"happiness": 2,
+		"maintenance": 1,
+		"uniques": ["Provides [1] [Alcohol]"],
+		"requiredNearbyImprovedResources": ["Wheat", "Tubers"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Chemistry"
+	},
+
+
+    
+	//	ECONOMY
+	{
+		"name": "Market",
+		"specialistSlots": { "Merchant": 2 },
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
+		"uniques": [
+			"[+1 Gold] from [Electronics] tiles [in this city]",
+			"[+1 Gold] from [Furs] tiles [in this city]",
+			"[+1 Gold] from [Fungus] tiles [in this city]",
+			"[+1 Gold] from [Hostile Fauna] tiles [in this city]",
+			"[+1 Gold] from [Salt] tiles [in this city]",
+			"[+1 Gold] from [Artifacts] tiles [in this city]",
+			"[+1 Gold] from [Marine Artifacts] tiles [in this city]",
+			"[+1 Gold] from [Gems] tiles [in this city]",
+			"[+1 Gold] from [Silver] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Caravan Office",
+		"replaces": "Market",
+		"uniqueTo": "Commonwealth",
+		"gold": 2,
+		"specialistSlots": { "Merchant": 2 },
+		"hurryCostModifier": 25,
+		"greatPersonPoints": { "Great Merchant": 1 },
+		"uniques": [
+			"[+1 Gold] from [Electronics] tiles [in this city]",
+			"[+1 Gold] from [Furs] tiles [in this city]",
+			"[+1 Gold] from [Fungus] tiles [in this city]",
+			"[+1 Gold] from [Hostile Fauna] tiles [in this city]",
+			"[+1 Gold] from [Salt] tiles [in this city]",
+			"[+1 Gold] from [Artifacts] tiles [in this city]",
+			"[+1 Gold] from [Marine Artifacts] tiles [in this city]",
+			"[+1 Gold] from [Gems] tiles [in this city]",
+			"[+1 Gold] from [Silver] tiles [in this city]"
+		],
+		"requiredTech": "Trade"
+	},
+	{
+		"name": "Water Plant",
+		"percentStatBonus": { "gold": 20 },
+		"maintenance": 0,
+		"uniques": [
+			"[+1 Gold] from [Groundwater] tiles [in this city]",
+			"Consumes [1] [Power]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Decontamination"
+	},
+	{
+		"name": "Water Storage",
+		"percentStatBonus": { "gold": 10 },
+		"requiredTech": "Currency",
+		"uniques": ["Doubles Gold given to enemy if city is captured"]
+	},
+
+	//SCI
+	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Science] [in this city] <with [Power]>",
+			"[+1 Science] per [2] population [in this city]",
+			"[+1 Science, +1 Culture] from [Books] tiles [in this city]"
+		],
+		"requiredTech": "Writing",
+	},
+	{
+		"name": "Information Market",
+		"replaces": "Library",
+		"uniqueTo": "Deadrock Clan",
+		"gold": 1,
+		"science": 1,
+		"greatPersonPoints": { "Great Scientist": 1 },
+		"uniques": [
+			"[+1 Science] [in this city] <with [Power]>",
+			"[+1 Science, +1 Culture] from [Books] tiles [in this city]"
+		],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Study",
+		"replaces": "Library",
+		"uniqueTo": "Crimson Legion",
+		"science": 1,
+		"greatPersonPoints": { "Great Scientist": 1 },
+		"uniques": [
+			"[+1 Science] [in this city] <with [Power]>",
+			"[+1 Science, +1 Culture] from [Books] tiles [in this city]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Sanctum",
+		"replaces": "Library",
+		"uniqueTo": "Cult of Ignis",
+		"culture": 1,
+		"science": 2,
+		"greatPersonPoints": { "Great Scientist": 1 },
+		"requiredNearbyImprovedResources": ["Books","Data","Encrypted Data"],
+		"uniques": [
+			"[+1 Science] [in this city] <with [Power]>",
+			"[+1 Science, +1 Culture] from [Books] tiles [in this city]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "National College",
+		"science": 2,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": { "science": 33 },
+		"uniques": [
+			"Requires a [Library] in all cities",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "University",
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 33 },
+		"specialistSlots": { "Scientist": 1 },
+		"uniques": [
+			"[+1 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Forest] tiles [in this city]",
+			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
+			"[+1 Science] [in this city] <with [Power]>",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Trade College",
+		"replaces": "University",
+		"uniqueTo": "Deadrock Clan",
+		"culture": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 33,
+		"percentStatBonus": { "science": 10 },
+		"greatPersonPoints": {
+			"Great Administrator": 1
+		},
+		"specialistSlots": { "Scientist": 1, "Merchant": 1 },
+		"uniques": [
+			"[+1 Science] [in this city] <with [Power]>"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "College of Rhetoric",
+		"replaces": "University",
+		"uniqueTo": "Crimson Legion",
+		"culture": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"greatPersonPoints": { "Great Scientist": 1, "Great Administrator": 1 },
+		"specialistSlots": { "Administrator": 1 },
+		"uniques": [
+			"Only available <in cities with a [Library]>",
+			"[+1 Culture] [in this city] <with [Power]>"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "College of Mystics",
+		"replaces": "University",
+		"uniqueTo": "Cult of Ignis",
+		"culture": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"greatPersonPoints": { "Great Scientist": 1 },
+		"specialistSlots": { "Scientist": 1 },
+		"uniques": [
+			"Only available <in cities with a [Sanctum]>",
+			"[+1 Culture, +1 Science] [in this city] <with [Power]>"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Public School",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1 Science, +1 Culture] per [3] population [in this city]",
+			"Only available <in cities with a [Library]>",
+			"[+1 Culture] [in this city] <with [Power]>"
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Clubhouse",
+		"replaces": "Public School",
+		"uniqueTo": "Deadrock Clan",
+		"food": -1,
+		"uniques": [
+			"Comment [Can recruit Clansman infantry]",
+			"[+1 Culture] per [3] population [in this city]",
+			"[+1 Gold] [in this city] <with [Slaves]>",
+			"[+20]% Production when constructing [Military] units [in this city]"
+		],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Secrets of the Past"
+	},
+	{
+		"name": "Military School",
+		"replaces": "Public School",
+		"uniqueTo": "Crimson Legion",
+		"food": -1,
+		"uniques": [
+			"[+15]% Production when constructing [Military] units [in this city]",
+			"New [Military] units start with [15] Experience [in this city]",
+			"Only available <in cities with a [Barracks]>"
+		],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Initiate School",
+		"replaces": "Public School",
+		"uniqueTo": "Cult of Ignis",
+		"food": -1,
+		"culture": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"[+1 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Forest] tiles [in this city]",
+			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
+			"Only available <in cities with a [Sanctum]>"
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Research Lab",
+		"percentStatBonus": { "science": 50 },
+		"specialistSlots": { "Scientist": 2 },
+		"maintenance": 1,
+		"uniques": [
+			"Only available <in cities with a [University]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Laboratory"
+	},
+	{
+		"name": "Data Center",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "science": 50 },
+		"specialistSlots": { "Scientist": 1 },
+		"requiredTech": "Networking",
+		"uniques": [
+			"[+1 Science, +1 Culture] from [Data] tiles [in this city]",
+			"[+1 Science, +1 Culture] from [Encrypted Data] tiles [in this city]",
+			"Consumes [1] [Power]"
+		]
+	},
+	{
+		"name": "Media Center", 
+		"happiness": 3,
+		"culture": 2,
+		"isNationalWonder": true,
+		"requiredNearbyImprovedResources": ["Data"],
+		"greatPersonPoints": { "Great Administrator": 2 },
+		"uniques": ["Consumes [1] [Power]"],
+		"requiredTech": "Networking"
+	},
+	{
+		"name": "Decryption Center",
+		"culture": 1,
+		"greatPersonPoints": { "Great Scientist": 1 },
+		"uniques": [
+			"Consumes [1] [Encrypted Data]",
+			"[+2 Science] [in this city] <with [Power]>",
+			"Only available <in cities with a [Data Center]>"
+		],
+		"percentStatBonus": { "science": 25 },
+		"requiredTech": "Decryption"
+	},
+	{
+		"name": "Skunkworks",
+		"culture": 1,
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"isWonder": true,
+		"uniques": [
+			"Consumes [1] [Encrypted Data]",
+			"[+3 Science] [in this city] <with [Power]>",
+			"Only available <in cities with a [Data Center]>",
+			"Free Technology"
+		],
+		"requiredTech": "Decryption"
+	},
+	{
+		"name": "Supercollider",
+		"science": 5,
+		"culture": 1,
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"isWonder": true,
+		"uniques": [
+			"[2] free [Great Scientist] units appear",
+			"Consumes [1] [Power]"
+		],
+		"percentStatBonus": { "science": 50 },
+		"requiredTech": "Particle Physics"
+	},
+	{
+		"name": "Communications Satellite",
+		"happiness": 2,
+		"science": 2,
+		"culture": 5,
+		"greatPersonPoints": { "Great Engineer": 1 },
+		"isNationalWonder": true,
+		"uniques": [
+			"Science gained from research agreements [+50]%",
+			"Only available <in cities with a [Aerospace Facility]>"
+		],
+		"requiredTech": "Satellites"
+	},
+	{
+		"name": "Surveillance Satellite",
+		"happiness": 5,
+		"culture": 2,
+		"greatPersonPoints": { "Great Engineer": 1 },
+		"isNationalWonder": true,
+		"uniques": [
+			"[+1] Sight <for [{Land} {Military}] units>",
+			"Only available <in cities with a [Aerospace Facility]>"
+		],
+		"requiredTech": "Incentivization"
+	},
+	//wonders
+	{
+		"name": "Satnav Network",
+		"science": 1,
+		"greatPersonPoints": { "Great Engineer": 2 },
+		"isWonder": true,
+		"uniques": [
+			"[+25]% [Gold] from Trade Routes",
+			"[+1] Movement <for [{Military} {Water}] units>",
+			"[+1] Sight <for [{Military} {Water}] units>",
+			"Only available <in cities with a [Aerospace Facility]>"
+		],
+		"requiredTech": "Satellites"
+	},
+	
+	//military
+	{
+		"name": "Walls",
+		"cityStrength": 1,
+		"cityHealth": 80,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Defensive Emplacements",
+		"cityStrength": 5,
+		"cityHealth": 20,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Only available <in cities with a [Walls]>"
+		],
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Choke Points",
+		"cityStrength": 2,
+		"cityHealth": 80,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Must be on [Hill]",
+			"Only available <in cities with a [Walls]>"
+		],
+		"requiredTech": "Mining"
+	},
+	{
+		"name": "Hardened Defenses",
+		"cityHealth": 120,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Only available <in cities with a [Walls]>"
+		],
+		"requiredTech": "Steel"
+	},
+	{
+		"name": "Battery",
+		"cityStrength": 10,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Only available <in cities with a [Walls]>"
+		],
+		"requiredTech": "Munitions"
+	},
+	{
+		"name": "Bunker",
+		"cityHealth": 200,
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Munitions"
+	},
+	{
+		"name": "Active Denial System",
+		"happiness": 3,
+		"maintenance": 1,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Energy Weapons"
+	},
+
+	{
+		"name": "Courthouse",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]"],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Arena",
+		"replaces": "Courthouse",
+		"uniqueTo": "Cult of Ignis",
+		"happiness": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"Remove extra unhappiness from annexed cities",
+			"[+1 Happiness, +1 Culture] [in this city] <with [Slaves]>"
+		],
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Colosseum",
+		"replaces": "Courthouse",
+		"uniqueTo": "Crimson Legion",
+		"happiness": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"Remove extra unhappiness from annexed cities",
+			"[+1 Happiness, +1 Culture] [in this city] <with [Slaves]>"
+		],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Prison Camp",
+		"hurryCostModifier": -25,
+		"food": -1,
+		"cost": 20,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]",
+			"Provides [1] [Slaves]",
+			"Only available <in cities without a [Courthouse]>"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Processing Center",
+		"replaces": "Prison Camp",
+		"uniqueTo": "Cult of Ignis",
+		"percentStatBonus": { "food": -50 },
+		"cost": 15,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]",
+			"Provides [4] [Slaves]",
+			"[+33]% growth [in all cities]",
+			"[+2 Food] [in all cities]",
+			"Only available <in cities without a [Arena]>"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Legion Camp",
+		"replaces": "Prison Camp",
+		"uniqueTo": "Crimson Legion",
+		"percentStatBonus": { "food": -33 },
+		"cost": 15,
+		"cityStrength": 10,
+		"cityHealth": 50,
+		"uniques": [
+			"[+15]% Production when constructing [Melee] units [in this city]",
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]",
+			"Provides [3] [Slaves]",
+			"Free [Auxiliary] appears",
+			"[+25]% growth [in all cities]",
+			"Only available <in cities without a [Colosseum]>"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Narcotics Refinery",
+		"requiredTech": "Chemistry",
+		"uniques": [
+			"Must have an owned [Narcotics farm] within [3] tiles",
+			"Provides [1] [Refined Narcotics]",
+			"Only available <with [Narcotics]>",
+			"Consumes [1] [Power]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Barracks",
+		"hurryCostModifier": 25,
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]"
+		]
+	},
+	{
+		"name": "Armory",
+		"cityStrength": 5,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction",
+		"requiredNearbyImprovedResources": ["Weapons"],
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"[+1 Production] from [Weapons] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Military Academy",
+		"isNationalWonder": true,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"New [Military] units start with [30] Experience [in this city]",
+			"Only available <in cities with a [Barracks]>",
+			"Free [Great General] appears"
+		],
+		"requiredTech": "Combined Arms"
+	},
+	{
+		"name": "Guerilla Camp",
+		"replaces": "Military Academy",
+		"uniqueTo": "Enclavers",
+		"cityStrength": 10,
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"All newly-trained [relevant] units [in this city] receive the [Guerilla Warfare II] promotion"
+		],
+		"requiredTech": "Combined Arms"
+	},
+	
+	//INDUSTRY - factory, furnace, provide +prod units. power +%
+	
+	{
+		"name": "Stable",
+		"requiredNearbyImprovedResources": ["Horses"],
+		"cost": 50,
+		"hurryCostModifier": -25,
+		"uniques": [
+			"Comment [Allows production of Mounted troops]",
+			"[+2 Production, -1 Food] from [Horses] tiles [in this city]"
+		],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "Forge",
+		"production": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Scrap", "Metal"],
+		"requiredTech": "Iron Working",
+		"uniques": [
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] [in this city] <with [Power]>",
+			"[+1 Production] [in this city] <with [Machinery]>"
+		]
+	},
+	{
+		"name": "Salvage Yard",
+		"replaces": "Forge",
+		"uniqueTo": "Children of Rust",
+		"hurryCostModifier": 25,
+		"requiredTech": "Iron Working",
+		"uniques": [
+			"[+1 Production] from [Scrap] tiles [in this city]",
+			"[+1 Production] from [Forest] tiles [in this city]",
+			"[+1 Production] from [Jungle] tiles [in this city]",
+			"[+1 Production] from [Sunken Ruins] tiles [in this city]",
+			"[+1 Production] [in this city] <with [Machinery]>"
+		]
+	},
+	{
+		"name": "Salvage Exchange",
+		"replaces": "Forge",
+		"uniqueTo": "Deadrock Clan",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Iron Working",
+		"uniques": [
+			"[+1 Production] from [Scrap] tiles [in this city]",
+			"[+1 Production] from [Forest] tiles [in this city]",
+			"[+1 Production] from [Jungle] tiles [in this city]",
+			"[+1 Production] from [Sunken Ruins] tiles [in this city]",
+			"[+1 Production] [in this city] <with [Machinery]>"
+		]
+	},
+	{
+		"name": "Chop Shop",
+		"replaces": "Forge",
+		"uniqueTo": "Cult of Ignis",
+		"production": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Scrap"],
+		"requiredTech": "Iron Working",
+		"uniques": [
+			"[+3 Production] from [Scrap] tiles [in this city]",
+			"[+25]% Production when constructing [Armor] units [in this city]",
+			"[+1 Production] [in this city] <with [Machinery]>"
+		]
+	},
+	{
+		"name": "Blast Furnace",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Scrap", "Metal"],
+		"uniques": [
+			"[-1 Food, +2 Production, -1 Gold] from [Scrap] tiles [in this city]",
+			"[-1 Food, +2 Production, -1 Gold] from [Metal] tiles [in this city]",
+			"Consumes [1] [Coal]"
+		],
+		"requiredTech": "Steel"
+	},
+	{
+		"name": "Oil Refinery",
+		"maintenance": 1,
+		"cost": 150,
+		"requiredNearbyImprovedResources": ["Oil"],
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [1] [Oil]",
+			"[+1 Production] [in this city] <with [Machinery]>",
+			"[-1 Food, +3 Production, -1 Gold] from [Oil] tiles [in this city]",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Chemistry"
+	},
+	{
+		"name": "Fuel Depot",
+		"replaces": "Oil Refinery",
+		"uniqueTo": "Cult of Ignis",
+		"maintenance": 1,
+		"cost": 100,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production, +2 Culture, -1 Gold] from [Oil] tiles [in this city]",
+			"Provides [1] [Oil]",
+			"[+2 Production, -1 Food] [in this city] <with [Power]>",
+			"[+1 Production] [in this city] <with [Machinery]>"
+		]
+	},
+	{
+		"name": "Biofuel Refinery",
+		"requiredNearbyImprovedResources": ["Cattle", "Goats", "Horses"],
+		"maintenance": 2,
+		"food": -1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [1] [Oil]",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Biology"
+	},
+	{
+		"name": "Hydro Plant",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Must be on [River]",
+			"Provides [2] [Power]"
+		],
+		"requiredTech": "Steam Power"
+	},
+	{
+		"name": "Tidal Plant",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Must be next to [Coast]",
+			"Provides [2] [Power]"
+		],
+		"requiredTech": "Steam Power"
+	},
+	{
+		"name": "Coal Plant",
+		"maintenance": 4,
+		"cost": 250,
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "food": -20 },
+		"uniques": [
+			"Provides [8] [Power]",
+			"Consumes [1] [Coal]",
+			"Only available <in cities without a [Nuclear Plant]>"
+		],
+		"requiredTech": "Steam Power"
+	},
+	{
+		"name": "Nuclear Plant",
+		"maintenance": 4,
+		"cost": 750,
+		"hurryCostModifier": 33,
+		"uniques": [
+			"Consumes [1] [Uranium]",
+			"Provides [8] [Power]",
+			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
+			"[+33]% Production when constructing [Nuclear Weapon] units [in this city]",
+			"Only available <in cities without a [Coal Plant]>"
+		],
+		"requiredTech": "Nuclear Fission"
+	},
+	{
+		"name": "Aluminum Smelter",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Aluminum"],
+		"uniques": [
+			"[-1 Food, -1 Gold, +2 Production] from [Aluminum] tiles [in this city]",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Desalination Plant",
+		"gold": 8,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Gold] [in this city] <with [Power]>",
+			"Provides [1] [Salt]",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Desalination"
+	},
+	{
+		"name": "Factory",
+		"percentStatBonus": { "production": 20 },
+		"specialistSlots": { "Engineer": 2 },
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Comment [Allows production of advanced troops and vehicles]",
+			"[+3 Production] [in this city] <with [Power]>",
+			"[+1 Production] [in this city] <with [Machinery]>",
+			"[+1 Production] from [Machinery] tiles [in this city]",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Electronics Production Line",
+		"percentStatBonus": { "production": -5 },
+		"production": -1,
+		"uniques": [
+			"Provides [1] [Electronics]",
+			"Consumes [1] [Power]",
+			"Only available <after adopting [Mass Consumption]>",
+			"Only available <in cities with a [Factory]>"
+		],
+		"requiredTech": "Electronics"
+	},
+	{
+		"name": "Machinery Production Line",
+		"percentStatBonus": { "production": -5 },
+		"production": -1,
+		"uniques": [
+			"Provides [1] [Machinery]",
+			"Consumes [1] [Power]",
+			"Only available <after adopting [Mass Consumption]>",
+			"Only available <in cities with a [Factory]>"
+		],
+		"requiredTech": "Replaceable Parts"
+	},
+	{
+		"name": "Armor Production Line",
+		"percentStatBonus": { "production": -10 },
+		"production": -3,
+		"uniques": [
+			"[2] free [Tank] units appear",
+			"[+66]% Production when constructing [Armor] units [in this city]",
+			"Only available <in cities with a [Factory]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Combined Arms"
+	},
+	{
+		"name": "Armaments Production Line",
+		"percentStatBonus": { "production": -10 },
+		"cityStrength": 5,
+		"production": -3,
+		"uniques": [
+			"Provides [2] [Weapons]",
+			"Consumes [1] [Power]",
+			"[Personnel] units gain the [Infantry Weapons] promotion",
+			"[+10]% Production when constructing [Military] units [in this city]",
+			"Only available <in cities with a [Factory]>",
+			"Gain a free [Armory] [in this city]"
+		],
+		"requiredTech": "Munitions"
+	},
+	{
+		"name": "Ground Control Center",
+		"isNationalWonder": true,
+		"cityStrength": 5,
+		"happiness": 3,
+		"uniques": [
+			"[Personnel] units gain the [Drone Recon] promotion",
+			"[+10]% Strength <for [Automated] units>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Avionics"
+	},
+	{
+		"name": "Survey Center",
+		"replaces": "Ground Control Center",
+		"uniqueTo": "Atlas",
+		"isNationalWonder": true,
+		"happiness": 1,
+		"uniques": [
+			"[Low Tech] units gain the [Drone Recon] promotion",
+			"[Personnel] units gain the [Drone Recon] promotion",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Secrets of the Past"
+	},
+	{
+		"name": "Operations Center",
+		"replaces": "Ground Control Center",
+		"uniqueTo": "Blackwarden",
+		"isNationalWonder": true,
+		"cityStrength": 5,
+		"happiness": 3,
+		"uniques": [
+			"[Personnel] units gain the [Drone Recon] promotion",
+			"[+10]% Strength <for [Automated] units>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Aerospace Facility",
+		"cityStrength": 10,
+		"production": -3,
+		"uniques": [
+			"Comment [Allows production of advanced aircraft and space craft]",
+			"[Aircraft] units gain the [Advanced Weapons] promotion",
+			"[+15]% Production when constructing [Air] units [in this city]",
+			"Only available <in cities with a [Factory]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Rocketry"
+	},
+	{
+		"name": "Automated Factory",
+		"percentStatBonus": { "production": 25 },
+		"production": 5,
+		"maintenance": 3,
+		"uniques": [
+			"[+1 Production] [in this city] <with [Power]>",
+			"Only available <in cities with a [Factory]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Robotics",
+		"civilopediaText": [
+			{
+				"text": "This building enables the construction of advanced energy units."
+			}
+		]
+	},
+	{
+		"name": "Work Camp",
+		"percentStatBonus": { "production": 15 },
+		"production": 1,
+		"specialistSlots": { "Engineer": 1 },
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1 Production] [in this city] <with [Power]>",
+			"[+2 Production] [in this city] <with [Slaves]>",
+			"Consumes [1] [Slaves]",
+			"Only available <with [Slaves]>"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Plastics Factory",
+		"food": -1,
+		"production": 2,
+		"specialistSlots": { "Engineer": 1 },
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredNearbyImprovedResources": ["Oil"],
+		"uniques": ["Consumes [1] [Power]"],
+		"requiredTech": "Plastics"
+	},
+	{
+		"name": "Plastics Reprocessor",
+		"specialistSlots": { "Engineer": 1 },
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredNearbyImprovedResources": ["Plastics"],
+		"uniques": [
+			"[+2 Production] from [Plastics] tiles [in this city]",
+			"[+2 Production] from [Marine Plastics] tiles [in this city]",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Plastics Recycling"
+	},
+	{
+		"name": "Carbon Capture",
+		"food": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["Only available <in cities with a [Coal Plant]>"],
+		"requiredTech": "Atmosphere Remediation"
+	},
+	{
+		"name": "AI Project",
+		"cost": 3750,
+		"science": 5,
+		"isWonder": true,
+		"uniques": [
+			"[+15]% Strength <for [Automated] units>",
+			"Empire enters golden age",
+			"[+15]% Production when constructing [Terraformer Part] units [in this city]",
+			"Consumes [1] [Power]"
+		],
+		"percentStatBonus": { "science": 50 },
+		"requiredTech": "Artificial Intelligence",
+		"quote": "Let there be light."
+	},
+
+	//water purifier
+	//desalination plants -coal or nuke
+	//computer centre
+	
+	//COASTAL
+	{
+		"name": "Fish Farm",
+		"food": 4,
+		"hurryCostModifier": 25,
+		"requiredTech": "Ecology",
+		"uniques": [
+			"Must be next to [Coast]"
+		]
+	},
+	{
+		"name": "Harbor",
+		"uniques": [
+			"[+10]% Production when constructing [Water] units [in this city]",
+			"Connects trade routes over water",
+			"Must be next to [Coast]"
+		],
+		"requiredTech": "Astronomy"
+	},
+	{
+		"name": "Seaport",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production] from [Water resource] tiles [in this city]",
+			"Must be next to [Coast]",
+			"[+15]% Production when constructing [Water] units [in this city]",
+			"Only available <in cities with a [Harbor]>"
+		],
+		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Ocean Seeder",
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Food] from [Water] tiles [in this city]",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Ocean Remediation"
+	},
+	
+//																																	unbuildable uniques																..
+
+	{
+		"name": "Archive of the Arts",
+		"uniqueTo": "The Archive",
+		"cost": 1,
+		"culture": 5,
+		"science": 1,
+		"happiness": 1,
+		"greatPersonPoints": { "Great Administrator": 2 },
+		"uniques": [
+			"[+50]% Golden Age length",
+			"Provides [1] [Power]"
+		]
+	},
+	{
+		"name": "Encyclopedia",
+		"uniqueTo": "The Archive",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 3,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Reveals the entire map"
+		]
+	},
+	{
+		"name": "Homestead",
+		"uniqueTo": "Jericho",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 5,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Reveals the entire map",
+			"Provides [1] [Oil]",
+			"Provides [1] [Power]",
+			"Provides [1] [Weapons]"
+		]
+	},
+	{
+		"name": "Nuclear Storage",
+		"uniqueTo": "Devil's Canyon",
+		"replaces": "Monument",
+		"gold": 5,
+		"cost": 1,
+		"uniques": [
+			"Gain a free [Nuclear Plant] [in this city]",
+			"Will not be displayed in Civilopedia",
+			"Reveals the entire map",
+			"Provides [1] [Uranium]"]
+	},
+	{
+		"name": "Silk Road",
+		"uniqueTo": "Bartertown",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Reveals the entire map",
+			"Provides [1] [Oil]",
+			"Provides [1] [Weapons]",
+			"Provides [1] [Soft Drinks]"]
+	},
+	{
+		"name": "The Abbey",
+		"uniqueTo": "Order of Jerome",
+		"cost": 1,
+		"culture": 5,
+        "science": 3,
+		"happiness": 2,
+		"greatPersonPoints": { "Great Scientist": 2 }
+	},	
+	{
+		"name": "Divine Knowledge",
+		"uniqueTo": "Order of Jerome",
+		"replaces": "Monument",
+		"cost": 1,
+		"cityHealth": 25,
+		"culture": 3,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Reveals the entire map",
+			"Provides [1] [Power]"]
+	},
+	{
+		"name": "Arroyo can't build libraries",
+		"uniqueTo": "Arroyo",
+		"replaces": "Library",
+		"cost": 1,
+		"uniques": ["Will not be displayed in Civilopedia","Unbuildable"]
+	},
+	{
+		"name": "Arroyo can't build factories",
+		"uniqueTo": "Arroyo",
+		"replaces": "Factory",
+		"cost": 1,
+		"uniques": ["Will not be displayed in Civilopedia","Unbuildable"]
+	},
+	{
+		"name": "Arroyo can't build coal plants",
+		"uniqueTo": "Arroyo",
+		"replaces": "Coal Plant",
+		"cost": 1,
+		"uniques": ["Will not be displayed in Civilopedia","Unbuildable"]
+	},
+	{
+		"name": "Arroyo can't build hydro plants",
+		"uniqueTo": "Arroyo",
+		"replaces": "Hydro Plant",
+		"cost": 1,
+		"uniques": ["Will not be displayed in Civilopedia","Unbuildable"]
+	},
+	{
+		"name": "Arroyo can't build tidal plants",
+		"uniqueTo": "Arroyo",
+		"replaces": "Tidal Plant",
+		"cost": 1,
+		"uniques": ["Will not be displayed in Civilopedia","Unbuildable"]
+	},	
+	{
+		"name": "Arroyo",
+		"uniqueTo": "Arroyo",
+		"replaces": "Monument",
+		"cost": 1,
+		"cityHealth": 50,
+		"food": 2,
+		"culture": 10,
+		"happiness": 2,		
+		"uniques": ["Will not be displayed in Civilopedia","Reveals the entire map"]
+	},
+	{
+		"name": "Ghost Mountain can't build libraries",
+		"uniqueTo": "Ghost Mountain",
+		"replaces": "Library",
+		"cost": 1,
+		"uniques": ["Will not be displayed in Civilopedia","Unbuildable"]
+	},
+	{
+		"name": "Ghost Mountain can't build factories",
+		"uniqueTo": "Ghost Mountain",
+		"replaces": "Factory",
+		"cost": 1,
+		"uniques": ["Will not be displayed in Civilopedia","Unbuildable"]
+	},
+	{
+		"name": "Ghost Mountain can't build coal plants",
+		"uniqueTo": "Ghost Mountain",
+		"replaces": "Coal Plant",
+		"cost": 1,
+		"uniques": ["Will not be displayed in Civilopedia","Unbuildable"]
+	},
+	{
+		"name": "Ghost Mountain can't build hydro plants",
+		"uniqueTo": "Ghost Mountain",
+		"replaces": "Hydro Plant",
+		"cost": 1,
+		"uniques": ["Will not be displayed in Civilopedia","Unbuildable"]
+	},
+	{
+		"name": "Ghost Mountain can't build tidal plants",
+		"uniqueTo": "Ghost Mountain",
+		"replaces": "Tidal Plant",
+		"cost": 1,
+		"uniques": ["Will not be displayed in Civilopedia","Unbuildable"]
+	},
+	{
+		"name": "Ghost Mountain",
+		"uniqueTo": "Ghost Mountain",
+		"replaces": "Monument",
+		"cost": 1,
+		"cityHealth": 100,
+		"food": 2,
+		"culture": 10,
+		"happiness": 2,		
+		"uniques": ["Will not be displayed in Civilopedia","Reveals the entire map"]
+	},
+	
+	{
+		"name": "Alma Air Base",
+		"uniqueTo": "Almaty",
+		"cityStrength": 10,
+		"cityHealth": 50,
+		"cost": 1,
+        "science": 1,
+        "production": 3,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [2] [Weapons]",
+			"Only available <in cities without a [Alma Tank Depot]>",
+			"Must not be on [Hill]"]
+	},
+	{
+		"name": "Alma Tank Depot",
+		"uniqueTo": "Almaty",
+		"cityStrength": 5,
+		"cityHealth": 100,
+		"cost": 1,
+        "science": 1,
+        "production": 3,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Only available <in cities without a [Alma Air Base]>",
+			"Provides [2] [Weapons]"]
+	},
+	{
+		"name": "Alma Base",
+		"uniqueTo": "Almaty",
+		"replaces": "Monument",
+		"cost": 1,
+		"cityHealth": 100,
+		"culture": 5,
+		"uniques": ["Will not be displayed in Civilopedia","Reveals the entire map","Free [Howitzer] appears"]
+	},	
+	{
+		"name": "Alma Oil Depot",
+		"culture": 1,
+		"happiness": 5,
+		"specialistSlots": {"Engineer": 2},
+		"maintenance": 1,	
+		"uniques": ["Will not be displayed in Civilopedia","Provides [1] [Oil]","Provides [1] [Power]"],
+		"cost": 40,		
+		"replaces": "Town Hall",
+		"uniqueTo": "Almaty",
+		"requiredTech": "Manufacturing"
+	},	
+	{
+		"name": "Salvage Tank Depot",
+		"requiredTech": "Engineering",
+		"requiredBuilding": "Alma Tank Depot",	
+		"isWonder": true,
+		"cost": 75,
+        "science": 1,
+        "production": -3,
+		"uniques": [
+			"Free [Tank] appears",
+			"Only available <in cities with a [Alma Tank Depot]>",
+			"Will not be displayed in Civilopedia"],
+		"quote": "To a man with a hammer, everything looks like a nail."
+	},
+	{
+		"name": "Salvage Bomber",
+		"requiredTech": "Manufacturing",
+		"requiredBuilding": "Alma Air Base",
+		"cannotBeBuiltWith": "Salvage Helicopter",		
+		"isWonder": true,
+		"cost": 60,
+        "science": 1,
+        "production": -3,
+		"uniques": [
+			"Free [Bomber] appears",
+			"Only available <in cities with a [Alma Air Base]>",
+			"Only available <in cities without a [Salvage Helicopter]>",
+			"Will not be displayed in Civilopedia"],
+		"quote": "For once you have tasted flight, you will forever walk the earth with your eyes turned skyward. For there you have been, and there you will always long to return."
+	},
+	{
+		"name": "Salvage Helicopter",
+		"requiredTech": "Engineering",
+		"isWonder": true,
+		"cost": 75,
+		"science": 1,
+		"production": -3,
+		"uniques": [
+			"Free [Salvaged Helicopter] appears",
+			"Only available <in cities with a [Alma Air Base]>",
+			"Only available <in cities without a [Salvage Bomber]>",
+			"Will not be displayed in Civilopedia"
+		],
+		"quote": ""
+	}
+]

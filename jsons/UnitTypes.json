@@ -1,0 +1,79 @@
+[
+	{
+		"name": "Civilian",
+		"movementType": "Land"
+	},
+	{
+		"name": "Melee Infantry",
+		"movementType": "Land"
+	},
+	{
+		"name": "Ranged Infantry",
+		"movementType": "Land"
+	},
+	{
+		"name": "Scout",
+		"movementType": "Land"
+	},
+	{
+		"name": "Mounted",
+		"movementType": "Land"
+	},
+	{
+		"name": "Armor",
+		"movementType": "Land"
+	},
+	{
+		"name": "Siege",
+		"movementType": "Land"
+	},
+	{
+		"name": "Civilian Water",
+		"movementType": "Water"
+	},
+	{
+		"name": "Melee Water",
+		"movementType": "Water"
+	},
+	{
+		"name": "Ranged Water",
+		"movementType": "Water"
+	},
+	{
+		"name": "Submarine",
+		"movementType": "Water",
+		"uniques": [
+			"Can enter ice tiles",
+			"Invisible to others",
+			"Can see invisible [Submarine] units"
+		]
+	},
+	{
+		"name": "Aircraft Carrier",
+		"movementType": "Water"
+	},
+	{
+		"name": "Fighter",
+		"movementType": "Air",
+		"uniques": [
+			"Aircraft",
+			"[+4] Sight",
+			"Can see over obstacles"
+		]
+	},
+	{
+		"name": "Bomber",
+		"movementType": "Air",
+		"uniques": [
+			"Aircraft"
+		]
+	},
+	{
+		"name": "Missile",
+		"movementType": "Air",
+		"uniques": [
+			"Self-destructs when attacking",
+			"Cannot be intercepted"
+		]
+	}
+]
