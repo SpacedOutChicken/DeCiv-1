@@ -301,6 +301,7 @@
 		"name": "Flood plains",
 		"type": "TerrainFeature",
 		"movementCost": 1,
+		"food": 1,
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
 		"uniques": [
