@@ -161,7 +161,7 @@
 	},
 	{
 		"columnNumber": 5,
-		"era": "Information era",
+		"era": "Industrial era",
 		"techCost": 650,
 		"buildingCost": 160,
 		"wonderCost": 400,
@@ -197,7 +197,7 @@
 	},
 	{
 		"columnNumber": 6,
-		"era": "Information era",
+		"era": "Industrial era",
 		"techCost": 1000, 
 		"buildingCost": 200,
 		"wonderCost": 500,
