@@ -800,9 +800,11 @@
 		"cost": 175,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "NBC Marksman",
-		"requiredResource": "Weapons",
 		"hurryCostModifier": 20,		
-		"uniques": ["Personnel"],
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]"
+		],
 		"promotions": ["Reconnaissance I","Extended Range"],
 		"attackSound": "shot"
 	},			
