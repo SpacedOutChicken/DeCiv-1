@@ -1852,6 +1852,13 @@ TileIcons/Buy
   orig: 200, 200
   offset: 0, 0
   index: -1
+OtherIcons/ConvertGold
+  rotate: false
+  xy: 4, 1599
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 StatIcons/Gold
   rotate: false
   xy: 4, 1599
