@@ -849,7 +849,6 @@
 			"[25]% XP gained from combat",
 			"[Great General] is earned [-20]% faster"
 		],
-		"unitTypes": ["Melee Infantry", "Ranged Infantry", "Scout"],
 		"column": 0,
 		"row": 2
 	},
