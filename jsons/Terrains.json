@@ -439,7 +439,7 @@
 		"uniques": [
 			"Must be adjacent to [1] to [6] [Coast] tiles",
 			"Neighboring tiles will convert to [Coast]",
-			"Grants 500 Gold to the first civilization to discover it"
+			"Grants [+500 Gold] to the first civilization to discover it"
 		],
 		"turnsInto": "Mountain",
 		"impassable": true,
