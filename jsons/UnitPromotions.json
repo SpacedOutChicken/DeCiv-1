@@ -62,7 +62,7 @@
 	{
 		"name": "Skirmish",
 		"uniques": [
-			"May withdraw before melee ([75]%)",
+			"Withdraws before melee combat <with [75]% chance>",
 			"[25]% XP gained from combat",
 			"[Great General] is earned [-20]% faster"
 		],

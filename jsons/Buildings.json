@@ -223,7 +223,7 @@
 		"cost": 100,
 		"requiredTech": "Currency",
 		"uniques": [
-			"Provides a sum of gold each time you spend a Great Person",
+			"Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[Great Merchant] is earned [25]% faster",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Grand Clan Manor]>"
@@ -1320,8 +1320,11 @@
 		"name": "Courthouse",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built <in [Annexed] cities>"],
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+			"Only available <in cities without a [Prison Camp]>"
+		],
 		"requiredTech": "Civil Service"
 	},
 	{
@@ -1334,7 +1337,8 @@
 		"uniques": [
 			"New [Military] units start with [15] Experience [in this city]",
 			"Remove extra unhappiness from annexed cities",
-			"[+1 Happiness, +1 Culture] [in this city] <with [Slaves]>"
+			"[+1 Happiness, +1 Culture] [in this city] <with [Slaves]>",
+			"Only available <in cities without a [Processing Center]>"
 		],
 		"requiredTech": "Machinery"
 	},
@@ -1348,7 +1352,8 @@
 		"uniques": [
 			"New [Military] units start with [15] Experience [in this city]",
 			"Remove extra unhappiness from annexed cities",
-			"[+1 Happiness, +1 Culture] [in this city] <with [Slaves]>"
+			"[+1 Happiness, +1 Culture] [in this city] <with [Slaves]>",
+			"Only available <in cities without a [Legion Camp]>"
 		],
 		"requiredTech": "Engineering"
 	},

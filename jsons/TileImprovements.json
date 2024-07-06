@@ -311,7 +311,8 @@
 			"[+2 Science] <after discovering [Electronics]>",
 			"[+2 Science] <after discovering [Decryption]>",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Will not be replaced by automated workers"
 		]
 	},
 	{
@@ -327,7 +328,8 @@
 			"[+1 Gold] <after discovering [Currency]>",
 			"[+1 Culture] <after discovering [Civil Service]>",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Will not be replaced by automated workers"
 		]
 	},
 	{
@@ -342,7 +344,8 @@
 			"Removes removable features when built",
 			"Can be built just outside your borders",
 			"Constructing it will take over the tiles around it and assign them to your closest city",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Will not be replaced by automated workers"
 		]
 	},
 	{
@@ -353,7 +356,8 @@
 			"Great Improvement",
 			"Provides [1] [Narcotics]",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Will not be replaced by automated workers"
 		]
 	},
 	{
@@ -367,7 +371,8 @@
 			"[+1 Food] <after discovering [Land Remediation]>",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
-			"Cannot be built on [Bonus resource] tiles"
+			"Cannot be built on [Bonus resource] tiles",
+			"Will not be replaced by automated workers"
 		]
 	},
 	{
@@ -380,7 +385,8 @@
 			"Gives a defensive bonus of [10]%",
 			"Provides [1] [Oil]",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Will not be replaced by automated workers"
 		]
 	},
 	{
@@ -395,7 +401,8 @@
 			"[+1 Production] <after discovering [Electronics]>",
 			"[+1 Production] <after discovering [Robotics]>",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Will not be replaced by automated workers"
 		]
 	},
 	{
@@ -407,7 +414,8 @@
 			"Great Improvement",
 			"Constructing it will take over the tiles around it and assign them to your closest city",
 			"Can be built just outside your borders",
-			"Removes removable features when built"
+			"Removes removable features when built",
+			"Will not be replaced by automated workers"
 		]
 	},
 	
@@ -445,8 +453,7 @@
 		"uniques": [
 			"Gives a defensive bonus of [10]%",
 			"Unpillagable",
-			"Unbuildable",
-			"Will be replaced by automated workers"
+			"Unbuildable"
 		]
 	},
 	{

@@ -365,7 +365,7 @@
 		"startBias": ["Hill"],
 		"style": "Tribal",
 		"uniques": [
-			"Damage is ignored when determining unit Strength <for [All] units>",
+			"No damage penalty for wounded units <for [All] units>",
 			"Cannot build [Cavalry] units <hidden from users>",
 			"Cannot build [Attack Vehicle] units <hidden from users>",
 			"Cannot build [Light Cavalry] units <hidden from users>"
@@ -384,7 +384,7 @@
 		"startBias": ["Hill"],
 		"style": "Ghost",
 		"uniques": [
-			"Damage is ignored when determining unit Strength <for [All] units>",
+			"No damage penalty for wounded units <for [All] units>",
 			"[Personnel] units gain the [Guerilla Warfare I] promotion",
 			"[Personnel] units gain the [Guerilla Warfare II] promotion",
 			"[Low Tech] units gain the [Guerilla Warfare I] promotion",

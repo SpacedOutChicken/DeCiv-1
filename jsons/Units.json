@@ -1146,7 +1146,7 @@
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs [Armor] units>",
 			"[-50]% Strength <vs cities>",
-			"May withdraw before melee ([75]%)",
+			"Withdraws before melee combat <with [75]% chance>",
 			"Consumes [1] [Oil]"
 		],
 		"hurryCostModifier": 20,
@@ -1214,7 +1214,7 @@
 			"No defensive terrain bonus",
 			"[-50]% Strength <vs [Helicopter] units>",
 			"[-1] Sight",
-			"May withdraw before melee ([50]%)",
+			"Withdraws before melee combat <with [50]% chance>",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
@@ -1236,7 +1236,7 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[+150]% Strength <vs [Armor] units>",
-			"May withdraw before melee ([75]%)",
+			"Withdraws before melee combat <with [75]% chance>",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
@@ -1259,7 +1259,7 @@
 			"[+300]% Strength <vs [Air] units>",
 			"[+300]% Strength <vs [Helicopter] units>",
 			"No defensive terrain bonus",
-			"May withdraw before melee ([50]%)",
+			"Withdraws before melee combat <with [50]% chance>",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
@@ -1309,7 +1309,7 @@
 			"All tiles cost 1 movement",
 			"Can pass through impassable tiles",
 			"[-25]% Strength <vs cities>",
-			"May withdraw before melee ([100]%)",
+			"Withdraws before melee combat <with [100]% chance>",
 			"Only available <if [Factory] is constructed>",
 			"Eliminates combat penalty for attacking over a river",
 			"Eliminates combat penalty for attacking across a coast",
@@ -1339,7 +1339,7 @@
 			"[+1] Sight",
 			"Can move after attacking",
 			"Ranged attacks may be performed over obstacles",
-			"May withdraw before melee ([100]%)",
+			"Withdraws before melee combat <with [100]% chance>",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"[-25]% Strength <vs cities>",
 			"Consumes [1] [Oil]",
@@ -1466,7 +1466,7 @@
 		"obsoleteTech": "Steam Power",
 		"uniques": [
 			"Double movement in [Coast]",
-			"May withdraw before melee ([66]%)",
+			"Withdraws before melee combat <with [66]% chance>",
 			"Consumes [1] [Oil]",
 			"Can move after attacking",
 			"Unable to capture cities"
@@ -1484,7 +1484,7 @@
 		"uniques": [
 			"Consumes [1] [Oil]",
 			"Double movement in [Coast]",
-			"May withdraw before melee ([66]%)",
+			"Withdraws before melee combat <with [66]% chance>",
 			"Can move after attacking",
 			"Unable to capture cities"
 		],
@@ -1505,7 +1505,7 @@
 			"Can see invisible [Submarine] units",
 			"[50]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Air] units>",
-			"May withdraw before melee ([66]%)",
+			"Withdraws before melee combat <with [66]% chance>",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
@@ -1981,7 +1981,7 @@
 			"All tiles cost 1 movement",
 			"Can pass through impassable tiles",
 			"[-25]% Strength <vs [Armor] units>",
-			"May withdraw before melee ([100]%)",
+			"Withdraws before melee combat <with [100]% chance>",
 			"Eliminates combat penalty for attacking over a river",
 			"Eliminates combat penalty for attacking across a coast",
 			"Only available <if [Alma Air Base] is constructed>",
