@@ -2143,7 +2143,7 @@
 			"Can be added to [The Terraformer] in the Capital",
 			"Limited to [3] per Civilization",
 			"Cannot be purchased",
-			"Hidden when [Scientific] Victory is disabled"
+			"Only available <when [Scientific] Victory is enabled>"
 		]
 	},
 	{
@@ -2159,7 +2159,7 @@
 			"Can be added to [The Terraformer] in the Capital",
 			"Limited to [1] per Civilization",
 			"Cannot be purchased",
-			"Hidden when [Scientific] Victory is disabled"
+			"Only available <when [Scientific] Victory is enabled>"
 		]
 	},
 	{
@@ -2176,7 +2176,7 @@
 			"Can be added to [The Terraformer] in the Capital",
 			"Limited to [1] per Civilization",
 			"Cannot be purchased",
-			"Hidden when [Scientific] Victory is disabled"
+			"Only available <when [Scientific] Victory is enabled>"
 		]
 	},
 	{
@@ -2192,7 +2192,7 @@
 			"Can be added to [The Terraformer] in the Capital",
 			"Limited to [1] per Civilization",
 			"Cannot be purchased",
-			"Hidden when [Scientific] Victory is disabled"
+			"Only available <when [Scientific] Victory is enabled>"
 		]
 	}
 ]

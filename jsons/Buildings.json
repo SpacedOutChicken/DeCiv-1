@@ -308,7 +308,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <in cities with a [Aerospace Facility]>",
-			"Hidden when [Scientific] Victory is disabled",
+			"Only available <when [Scientific] Victory is enabled>",
 			"Comment [Enables the construction of Terraformer Parts]"
 		],
 		"requiredTech": "Rocketry"
