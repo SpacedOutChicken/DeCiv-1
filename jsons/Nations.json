@@ -111,7 +111,7 @@
 		"name": "Commonwealth",
 		"leaderName": "President Hawkins",
 		"adjective": ["Commonwealth"],
-		"startBias": ["Avoid Desert"],
+		"startBias": ["Avoid [Desert]"],
 		"preferredVictoryType":"Cultural",
 		
 		"declaringWar": "We must take action now, before it is too late.",
@@ -140,7 +140,7 @@
 		"name": "The Patriots",
 		"leaderName": "General Cameron",
 		"adjective": ["Patriot"],
-		"startBias": ["Avoid Desert"],
+		"startBias": ["Avoid [Desert]"],
 		"preferredVictoryType": "Domination",
 	
 		"declaringWar": "You're either with us, or you're with the terrorists.",
@@ -405,7 +405,7 @@
 		"name": "Almaty",
 		"adjective": ["Almaty"],
 		"cityStateType": "Militaristic",
-		"startBias": ["Hills"],
+		"startBias": ["Hill"],
 		"style": "Military",
 		"uniques": ["Double quantity of [Weapons] produced"],
 		"declaringWar": "You leave us no choice. War it must be.",
