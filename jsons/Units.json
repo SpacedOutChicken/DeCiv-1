@@ -1444,7 +1444,6 @@
 		"uniques": [
 			"Automated",
 			"[100]% chance to intercept air attacks",
-			"Cannot intercept [Stealth] units",
 			"[+100]% Strength <vs [Bomber] units>",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Consumes [1] [Aluminum]"
