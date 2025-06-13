@@ -1321,7 +1321,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Only available <in cities without a [Prison Camp]>"
 		],
@@ -1336,7 +1336,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"New [Military] units start with [15] XP [in this city]",
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"[+1 Happiness, +1 Culture] [in this city] <with [Slaves]>",
 			"Only available <in cities without a [Processing Center]>"
 		],
@@ -1351,7 +1351,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"New [Military] units start with [15] XP [in this city]",
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"[+1 Happiness, +1 Culture] [in this city] <with [Slaves]>",
 			"Only available <in cities without a [Legion Camp]>"
 		],
@@ -1363,7 +1363,7 @@
 		"food": -1,
 		"cost": 20,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Provides [1] [Slaves]",
 			"Only available <in cities without a [Courthouse]>"
@@ -1377,7 +1377,7 @@
 		"percentStatBonus": { "food": -50 },
 		"cost": 15,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Provides [4] [Slaves]",
 			"[+33]% growth [in all cities]",
@@ -1396,7 +1396,7 @@
 		"cityHealth": 50,
 		"uniques": [
 			"[+15]% Production when constructing [Melee] units [in this city]",
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Provides [3] [Slaves]",
 			"Free [Auxiliary] appears",
