@@ -106,7 +106,7 @@
 			},
 			{
 				"name": "Reclaimers",
-				"uniques": ["Double quantity of [Coal] produced","Double quantity of [Oil] produced","Double quantity of [Aluminum] produced"],
+				"uniques": ["[+100]% [Coal] resource production","[+100]% [Oil] resource production","[+100]% [Aluminum] resource production"],
 				"requires": ["Restorers"],
 				"row": 2,
 				"column": 2
@@ -164,7 +164,7 @@
 				"name": "Autocracy",
 				"uniques": [
 					"[+2 Happiness, +1 Culture] [in all cities with a garrison]",
-					"Double quantity of [Slaves] produced"
+					"[+100]% [Slaves] resource production"
 				],
 				"row": 1,
 				"column": 5
@@ -474,7 +474,7 @@
 			{
 				"name": "Fascism",
 				"uniques": [
-					"Quantity of strategic resources produced by the empire +[100]%",
+					"[+100]% [Strategic] resource production",
 					"[-2 Food] from every [Courthouse]",
 					"[-6 Food, +3 Production] from every [Prison Camp]"],
 				"requires": ["Police State"],
